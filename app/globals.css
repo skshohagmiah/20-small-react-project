@@ -7,9 +7,31 @@
 html,
 body{
     height: 100%;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
 }
 
 body h2{
     color: white;
     font-size: 1.5rem;
+}
+
+.mask-image{
+    -webkit-mask: linear-gradient(90deg,transparent ,white 50%,transparent);
+    mask: linear-gradient(90deg,transparent ,white 50%,transparent);
+    mask-repeat: no-repeat;
+    width: 100%;
+}
+
+.aninate{
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+    from{
+        transform: translateX(-0%);
+    }
+    to{
+        transform: translateX(-95%);
+    }
 }

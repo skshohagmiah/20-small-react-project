@@ -18,6 +18,13 @@ export default function Home() {
         <Button bg="bg-stone-300" link="countdown" text="Time Countdowm"/>
         <Button bg="bg-gray-300" link="loadmore" text="Load More"/>
         <Button bg="bg-red-300" link="loader" text="Loader"/>
+        <Button bg="bg-rose-300" link="category" text="Category"/>
+        <Button bg="bg-white/30" link="horizontal" text="Horizontal Scroll"/>
+        <Button bg="bg-sky-300" link="breadcrumb" text="Breadcrumb"/>
+        <Button bg="bg-fuchsia-300" link="rating" text="Rating"/>
+        <Button bg="bg-emerald-300" link="infinitescrolling" text="Infinite Scrolling"/>
+        <Button bg="bg-teal-300" link="docs" text="MDN Docs"/>
+        <Button bg="bg-amber-300" link="calculator" text="Calculator"/>
       </div>
     </div>
   );
